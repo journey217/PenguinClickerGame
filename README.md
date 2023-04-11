@@ -4,4 +4,4 @@ Clicker Game
 
 To play the game, go to:
 
-[Click the Penguin!](journeyspratt.online/idle-game.html)
+[Click the Penguin!](https://www.journeyspratt.online/idle-game.html)
