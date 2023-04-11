@@ -1,0 +1,23 @@
+body {
+    background-image: url("IceBergs.jpg");
+    background-color: transparent;
+}
+
+#clickButtons {
+    background: transparent;
+}
+
+.text1 {
+    font-family: "Comic Sans MS", serif;
+    font-size: 13px;
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    outline-color: black;
+    outline-style: ridge;
+}
+
+#siteTitle {
+    font-size: 50px;
+    font-family: "Comic Sans MS", serif;
+}

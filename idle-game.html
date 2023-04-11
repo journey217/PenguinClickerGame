@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title id="title">Click the Penguin!</title>
+    <script src="scripts-idle.js"></script>
+    <link href="style-idle.css" rel="stylesheet">
+</head>
+<body onload="set()">
+<h1 id="siteTitle">Click the Penguin!</h1>
+<p id="text">
+<div id="temptation" class="text1">Stats:</div>
+<div id="bank" class="text1"></div>
+<div id="cps" class="text1"></div>
+<div id="5cps" class="text1"></div>
+<div id="autoClickers" class="text1"></div>
+<div id="bigClickers" class="text1"></div>
+<div id="biggerClickers" class="text1"></div>
+</p>
+<br>
+<button onclick="buyItem(10, 1)">Buy Auto-clicker (10 points)</button>
+<button onclick="buyItem(90, 2)">Buy 1 Big-Clicker (90 points)</button>
+<button onclick="buyItem(900, 3)">Buy 1 Bigger-Clickers (900 points)</button>
+<br>
+<button onclick="buyItem(100, 5)">Buy another Penguin! (100 points)</button>
+<button onclick="save()">Save my game</button>
+<br>
+<p id="clickButtons">
+<img src="Penguin.png" alt="image" onclick="addToBank()" height="200" width="200">
+</p>
+<br>
+<button onclick="resetGame()">Temptation (Do not click)</button>
+<!--<button onclick="addPoints()">Add points</button>-->
+</body>
+</html>
